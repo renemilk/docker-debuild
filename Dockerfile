@@ -1,5 +1,5 @@
-FROM debian:unstable
-MAINTAINER dochang@gmail.com
+FROM ubuntu:xenial
+MAINTAINER github@milk.pm
 
 RUN apt-get update
 # https://wiki.debian.org/BuildingTutorial
